@@ -1,16 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { GestureHandlerRootView } from 'react-native-gesture-handler'
-import { Drawer } from "expo-router/drawer";
+import { View, Text } from 'react-native';
+import React from 'react';
 
-const about = () => {
+const About = () => {
     return (
-        <GestureHandlerRootView>
-            <Drawer>
-                <Drawer.Screen name="index" />
-            </Drawer>
-        </GestureHandlerRootView>
-    )
-}
+        <View>
+            <Text>About Screen</Text>
+        </View>
+    );
+};
 
-export default about
+export default About;
